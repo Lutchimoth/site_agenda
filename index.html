@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Contatos</h1>
+            <button id="btn-adiciona" type="submit"><img id="adiciona-num" src="images/adicionar.png" alt="Adicionar"></button>
+            <form id="form-adicionar-num"style="display: none;">
+                <div>
+                    <input id="nome-contato" type="text" required placeholder="Nome do contato">
+                </div>
+                <div>
+                    <input id="num-contato" type="tel" required placeholder="Número do contato">
+                </div>
+                <button type="submit">+</button>
+            </form>
+        </div>
+        <div class="tabela">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Número</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>---</td>
+                        <td>---</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

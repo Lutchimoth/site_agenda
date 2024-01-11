@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 12px 40px;
+}
+
+.header img {
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#btn-adiciona {
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-adiciona:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+form input {
+    width: 100%;
+    font-size: 1rem; 
+    background-color: #fff;
+    border: 1px solid #a3a2a2;
+    padding: 8px;
+    text-align: center;
+}
+
+form button {
+    background-color: #000000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.tabela {
+    width: 960px;
+    padding-top: 12px;
+    padding-right: 8px;
+}
+
+table {
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table td img {
+    height: 30px;
+}
+
+table th:hover, table td:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+table .btn-excluir {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
