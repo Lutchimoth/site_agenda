@@ -54,8 +54,8 @@ body {
 
 form {
     display: flex;
-    max-width: 250px;
-    width: 100%;
+    max-width: 280px;
+    width: 180px;
     flex-direction: column;
     margin-top: 8px;
 }
